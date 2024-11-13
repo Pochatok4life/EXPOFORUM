@@ -1,0 +1,207 @@
+/* main */
+
+body {
+    font-family: 'Circe';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h4 {
+    font-family: 'Plumb';
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.hero-wrapper {
+    background-image: url(images/bg-landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 0 150px;
+}
+
+.user-actions {
+    width: 172px;
+}
+
+.text-of-landing {
+    margin-top: 213px;
+}
+
+.text-of-landing h1 {
+    font-family: 'Plumb';
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.text-of-landing p {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.content-wrapper {
+    margin-top: 290px;
+    width: 540px; 
+}
+
+.info-block {
+    width: 255px;
+}
+
+.info-block h5 {
+    font-family: 'Plumb';
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.info-block p {
+    font-size: 14px;
+}
+
+.info-block h5, .info-block p {
+    margin-left: 40px;
+}
+
+.main-content {
+    padding: 75px 0;
+}
+
+.link-all {
+    font-family: 'Plumb';
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.link-hover:hover {
+    color: #FFC41E !important;
+    text-decoration: underline;
+}
+
+.event-name {
+    font-family: 'Plumb';
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.date-of-event {
+    font-size: 14px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.col-3 h5 {
+    font-family: 'Plumb';
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.col-3 p {
+    color: #E0E0E0;
+    font-size: 14px;
+}
+
+.footer-links li {
+    color: #E0E0E0;
+    font-size: 14px;
+}
+
+.input-field {
+    width: 214px;
+    height: 40px;
+    border: none;
+}
+
+form {
+    position: relative;
+}
+
+.submit-btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: none; 
+}
+
+input[placeholder] {
+    color: #9C9C9C;
+    font-size: 12px;
+}
+
+/* color */
+
+:root {
+    --white: #fff;
+    --red: #F6404F;
+    --yellow: #FFC41E;
+    --blue: #2378FC;
+    --cian: #30BCC9;
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.color-red {
+    color: var(--red);
+}
+
+.color-yellow {
+    color: var(--yellow);
+}
+
+.bg-color-red {
+    background-color: var(--red);
+}
+
+.bg-color-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-color-blue {
+    background-color: var(--blue);
+}
+
+.bg-color-cian {
+    background-color: var(--cian);
+}
+
+/* fonts */
+
+@font-face {
+    font-family: "Circe";
+    src: url(fonts/Circe-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Plumb";
+    src: url(fonts/Plumb-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Plumb";
+    src: url(fonts/Plumb-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* container */
+
+@media (min-width: 1440px) {
+    .container{
+        max-width: 1114px;
+        margin: 0 auto;
+
+    }
+}
